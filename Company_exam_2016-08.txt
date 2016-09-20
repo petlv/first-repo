@@ -14,6 +14,8 @@ namespace Company
             int availableDays = int.Parse(Console.ReadLine());
             int workersAdditionalTime = int.Parse(Console.ReadLine());
 
+// step 2
+
             double netAvailableDays = availableDays - (availableDays * 0.1);
             double WorkHours = netAvailableDays * 8;
             double hoursWorkersAdditionalTime = workersAdditionalTime * 2 * availableDays;
@@ -28,7 +30,6 @@ namespace Company
                 Console.WriteLine("Yes!{0} hours left.", totalHours - neededHours);
             }
 
-		//"Updating with Bash… "
 		//"Update with Tortoise… "
 		// step 2
         }
