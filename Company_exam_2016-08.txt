@@ -28,6 +28,7 @@ namespace Company
                 Console.WriteLine("Yes!{0} hours left.", totalHours - neededHours);
             }
 
+		//"Updating with Bash… "
 		//"Update with Tortoise… "
 		// step 2
         }
