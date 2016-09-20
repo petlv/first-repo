@@ -14,7 +14,7 @@ namespace Company
             int availableDays = int.Parse(Console.ReadLine());
             int workersAdditionalTime = int.Parse(Console.ReadLine());
 
-// step 2
+// step 21
 
             double netAvailableDays = availableDays - (availableDays * 0.1);
             double WorkHours = netAvailableDays * 8;
